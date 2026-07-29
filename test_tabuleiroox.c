@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <assert.h>
-#include "function_tabuleiro.c"
+#include "function_tabuleiroox.c"
 
 int main() {
-    assert(validar_tabuleiro_char('X') == 1);
-    assert(validar_tabuleiro_char('O') == 1);
-    assert(validar_tabuleiro_char('4') == 0);
+    assert(validaCaractereTabuleiro('X') == 1);
+    assert(validaCaractereTabuleiro('O') == 1);
+    assert(validaCaractereTabuleiro('A') == 0);
 
-    printf("Criado por Marcelo Mendes");
+    printf("Criado por: Marcelo Mendes");
     return 0;
 }
